@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.table {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+table {
+    width: 600px;
+    padding-top: 20px;
+    
+}
+table,th,td 
+{
+     padding: 20px;
+     border: 2px solid black;
+     border-collapse: collapse;
+     text-align: center;
+}
+
+td {
+    font-size: 18px;
+    background-color: wheat
+}
+th {
+    background-color: red;
+    color: white;
+}
+.error{
+    color: red;
+}
+.sheet {
+    padding-top: 15px;
+    background-color: wheat;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+input {
+    margin-top: 15px;
+    margin-left: 40px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
