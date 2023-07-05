@@ -11,7 +11,7 @@ function RegisterStaff({setStaff}) {
     function submit()
     {
        
-        axios.post('http://localhost:7000/api/auth/signupStaff',{
+        axios.post('https://result-portal-api.onrender.com/api/auth/signupStaff',{
             name:username,
             email:email,
             password:password

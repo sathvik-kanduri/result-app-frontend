@@ -12,7 +12,7 @@ function Login({setStudent}) {
   let navigate=useNavigate();
   function submit()
   {
-     axios.post('http://localhost:7000/api/auth/login',{
+     axios.post('https://result-portal-api.onrender.com/api/auth/login',{
       email:email,
       password:password
      },{

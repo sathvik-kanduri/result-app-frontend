@@ -11,7 +11,7 @@ function Results() {
   const [error,setError]=useState('');
   function submit()
   {
-    axios.get(`http://localhost:7000/api/auth/${email}`)
+    axios.get(`https://result-portal-api.onrender.com/api/auth/${email}`)
     .then((x)=>{
       setAdhoc(x.data.results.adhoc)
       setFom(x.data.results.fom);

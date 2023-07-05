@@ -12,7 +12,7 @@ function Addresult() {
   const [color,setColor]=useState('');
   function submit()
   {
-     axios.post('http://localhost:7000/api/auth/results',{
+     axios.post('https://result-portal-api.onrender.com/api/auth/results',{
       name:name,
       email:email,
       adhoc:adhoc,

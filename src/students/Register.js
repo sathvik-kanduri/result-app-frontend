@@ -11,7 +11,7 @@ function Register({setStudent}) {
     function submit()
     {
        
-        axios.post('http://localhost:7000/api/auth/signup',{
+        axios.post('https://result-portal-api.onrender.com/api/auth/signup',{
             name:username,
             email:email,
             password:password

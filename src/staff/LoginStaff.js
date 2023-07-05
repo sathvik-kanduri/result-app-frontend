@@ -9,7 +9,7 @@ function LoginStaff({setStaff}) {
   let navigate=useNavigate();
   function submit()
   {
-     axios.post('http://localhost:7000/api/auth/loginStaff',{
+     axios.post('https://result-portal-api.onrender.com/api/auth/loginStaff',{
       email:email,
       password:password
      },{
